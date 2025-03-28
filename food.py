@@ -13,17 +13,8 @@ class Food(Turtle):
         self.penup()
         self.random_appearing()
 
-
     def random_appearing(self):
-        X_POS = random.choice(range(-280, 280, 20))
-        Y_POS = random.choice(range(-280, 280, 20))
-        print(X_POS, Y_POS)
-        self.goto(X_POS, Y_POS)
-        pass
+        x_pos = random.choice(range(-280, 280, 20))
+        y_pos = random.choice(range(-280, 280, 20))
+        self.goto(x_pos, y_pos)
 
-"""    def lost_the_game(self):
-        # collision with wall
-
-        # collision with tail
-
-        pass"""
