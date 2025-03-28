@@ -18,3 +18,4 @@ class Food(Turtle):
         y_pos = random.choice(range(-280, 280, 20))
         self.goto(x_pos, y_pos)
 
+
