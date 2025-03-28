@@ -36,6 +36,7 @@ Snake-Game/
 
 ```bash
 python main.py
+```
 
 2. Control the snake using arrow keys:
     ↑ Up
